@@ -2,17 +2,10 @@
 
 A ready to use Nuxt 4 boilerplate
 
-**Live Demo**: https://nuxt-boilerplate-main.vercel.app/
-
-**StackBlitz**: https://stackblitz.com/github/renegadevi/nuxt-boilerplate
-
-![screenshot](https://raw.githubusercontent.com/renegadevi/nuxt-boilerplate/main/.github/screenshot.png)
-![lighthouse](https://raw.githubusercontent.com/renegadevi/nuxt-boilerplate/main/.github/lighthouse.png)
-
 ## Quick setup (TLDR;)
 
 ```bash
-git clone https://github.com/renegadevi/nuxt-boilerplate.git
+git clone https://github.com/forgeon-apps/nuxt-boilerplate.git
 cd nuxt-boilerplate
 pnpm install
 pnpm run dev
@@ -28,7 +21,7 @@ pnpm run dev
 ### Clone repo
 
 ```bash
-git clone https://github.com/renegadevi/nuxt-boilerplate.git
+git clone https://github.com/forgeon-apps/nuxt-boilerplate.git
 cd nuxt-boilerplate
 ```
 
