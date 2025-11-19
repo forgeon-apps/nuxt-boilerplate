@@ -1,19 +1,21 @@
 <template>
-  <!--
+  <main
+    class="flex w-full justify-center bg-black px-4 pt-8 text-neutral-100 sm:px-6 sm:pt-10"
+  >
+    <div class="flex w-full max-w-4xl items-start gap-4">
+      <NuxtLink
+        to="/"
+        class="flex h-10 w-10 items-center justify-center rounded-full border border-neutral-800 text-neutral-300 transition hover:border-neutral-500 hover:bg-neutral-900 hover:text-white"
+        aria-label="Back to home"
+      >
+        <Icon name="ph:arrow-left" size="18" />
+      </NuxtLink>
 
-    Template below is intended to be removed for your own project.
-    This is just a demo.
-
-   -->
-  <main class="flex w-full justify-center border-t-4 border-t-[#56CB82] pt-10">
-    <NuxtLink
-      class="flex h-10 w-10 items-center justify-center rounded-full text-gray-600 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-slate-800"
-      to="/"
-    >
-      <Icon name="ph:arrow-left" size="20" />
-    </NuxtLink>
-    <div class="container max-w-4xl pt-14">
-      <slot />
+      <div
+        class="flex-1 border-l border-neutral-900 pl-4 sm:pl-6"
+      >
+        <slot />
+      </div>
     </div>
   </main>
 </template>
